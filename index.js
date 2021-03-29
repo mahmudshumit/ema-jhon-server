@@ -17,6 +17,11 @@ app.use(cors());
 
 const port = 5000
 
+app.get('/', (req, res) =>{
+  res.send("It's Working");
+
+})
+
 
 
 
